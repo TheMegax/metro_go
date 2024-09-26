@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Metro GO',
+      title: 'Locker GO',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
-            Image.asset('assets/metrogo-logo.jpg',
+            Image.asset('assets/metrogo-logo.jpeg',
               height: 250,
               scale: 2.5,
             ),
@@ -134,7 +134,7 @@ class QRScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            Image.asset('assets/metrogo-logo.jpg',
+            Image.asset('assets/metrogo-logo.jpeg',
               height: 200,
             ),
             const Text(
@@ -179,7 +179,7 @@ class EntregasRetiros extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            Image.asset('assets/metrogo-logo.jpg',
+            Image.asset('assets/metrogo-logo.jpeg',
               height: 200,
             ),
             const Text(
